@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+body{
+background: #000046;
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+background: linear-gradient(to right, #1CB5E0, #000046);
+font-family: sans-serif;
+}
+.first-headline b{
+  font-size: 70px;
+font-weight: 200;
+text-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+.service-icon{
+background: #0360ff;
+text-align: center;
+border-radius: 30px;
+color: #fff;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+.service-icon i{
+font-size: 45px;
+padding: 35px 9px;
+}
+.services-text-left{
+text-align: right;
+}
+.single-services h4{
+margin: 0 0 15px 0;
+font-family: 'Anton', sans-serif;
+letter-spacing: 1px;
+font-weight: 100;
+text-shadow: 5px 5px 5px rgba(0,0,0,0.6);
+}
+.row-middle-row{
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.single-services:hover .service-icon{
+background: #dd841c;
+color: #333;
+transition: all 0.4s ease;
+}
